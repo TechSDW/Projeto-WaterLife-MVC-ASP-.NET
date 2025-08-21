@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/home.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Adquira a melhor agua da sua vida!</h1>
+        </header>
+
+        <main>
+            <h1>Produtos com desconto</h1>
+
+            <section class="prod-discount">
+                <button style="margin-right: 1em; margin-left: .5em;"><img src="~/img/Icons/left-arrow.png" alt="Seta para a esquerda"></button>
+
+                <img src="~/img/Product Images/PlanetaTerra.jpg" alt="Planeta Terra" class="prod-img">
+
+                <div class="prod-discount-details">
+                    <h1>Planeta Terra</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias blanditiis unde, minima nihil at inventore consequatur eveniet nulla consectetur dolor tenetur architecto quam quidem reprehenderit maiores numquam voluptatum aliquam?</p>
+
+                    <div class="prod-details-prices">
+                        <h1>Preço: R$1,00</h1>
+
+                        <button id="btn-addcart">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+
+                <button style="margin-left: 1em; margin-right: .5em;"><img src="~/img/Icons/right-arrow.png" alt="Seta para a direita"></button>
+            </section>
+
+            <div class="title-most-purchased">
+                <h1 style="margin-bottom: 0;">Produtos mais vendidos</h1>
+
+                <a href="~/html/store.html">
+                    Veja Todos
+
+                    <img src="~/img/Icons/right-arrow-2.png" alt="Seta para a direita" style="width: 15%;">
+                </a>
+            </div>
+
+            <section class="prod-famous">
+                <div class="prod-famous-item">
+                    <img src="~/img/Product Images/SucoLaranja.jpg" alt="Suco de laranja" class="prod-img">
+
+                    <div class="prod-famous-item-info">
+                        <h2>Água saborizada de laranja</h2>
+
+                        <div class="prod-details-prices">
+                            <h3>Preço: R$0,83</h3>
+
+                            <button id="btn-addcart">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prod-famous-item">
+                    <img src="~/img/Product Images/SucoLaranja.jpg" alt="Suco de laranja" class="prod-img">
+
+                    <div class="prod-famous-item-info">
+                        <h2>Água saborizada de laranja</h2>
+
+                        <div class="prod-details-prices">
+                            <h3>Preço: R$0,83</h3>
+
+                            <button id="btn-addcart">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="~/js/home.js"></script>
+    </body>
+</html>

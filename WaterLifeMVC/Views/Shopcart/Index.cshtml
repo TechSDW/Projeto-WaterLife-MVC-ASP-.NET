@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Shopcart";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/shopcart.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Seu carrinho</h1>
+        </header>
+
+        <main>
+            <section class="shopcart-section">
+                
+            </section>
+
+            <aside>
+                <div class="items-price">
+                    <h1>Valores:</h1>
+
+                    <div>
+                        <h2 style="margin-left: 1em;">Item(s)</h2>
+                        <h2 id="items-totalcost">R$68,44</h2>
+                    </div>
+
+                    <div>
+                        <h2 style="margin-left: 1em;">Frete</h2>
+                        <h2 id="taxes-totalcost">R$81,94</h2>
+                    </div>
+                </div>
+
+                <div class="total-cost">
+                    <div>
+                        <h1 class="total-title">Total:</h1>
+                        <h1 id="value-totalcost">R$150,38</h1>
+                    </div>
+
+                    <button>Finalizar compra</button>
+                </div>
+            </aside>
+        </main>
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>

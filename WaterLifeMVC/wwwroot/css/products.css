@@ -1,0 +1,107 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: "BrightAura";
+    src: url(../fonts/bright_aura/Bright\ Aura.ttf), url(../fonts/bright_aura/Bright\ Aura.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MlkyNice";
+    src: url(../fonts/milky_nice/MilkyNice-Clean.ttf), url(../fonts/milky_nice/MilkyNice-Clean.otf);
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30, 170, 230);
+    color: white;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    margin-bottom: 1em;
+    font-family: "MlkyNice";
+}
+
+form {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 20em;
+    width: 45em;
+    padding: 3em;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+.your-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3em;
+    border-right: 2px solid white;
+    width: 40%;
+}
+
+.your-image img {
+    width: 90%;
+    margin: 1em 0;
+}
+
+.new-product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    font-family: "Nunito";
+}
+
+.new-product-info label {
+    margin-bottom: .5em;
+}
+
+.new-product-info input[type="submit"] {
+    height: 5em;
+    background-color: rgb(30, 123, 230);
+    font-family: "MlkyNice";
+    border-radius: 5px;
+    border: 1px solid rgb(9, 7, 114);
+    color: white;
+}
+
+.new-product-info input, textarea {
+    margin-bottom: 1em;
+    width: 20em;
+    padding: .5em;
+}
+
+.description-field {
+    height: 30em;
+}
+
+.return-button {
+    margin-left: 40%;
+}
+
+.return-button button {
+    width: 20em;
+    height: 3em;
+    background-color: rgb(30, 123, 230);
+    font-family: "MlkyNice";
+    border-radius: 10px;
+    border: 1px solid rgb(9, 7, 114);
+    color: white;
+}

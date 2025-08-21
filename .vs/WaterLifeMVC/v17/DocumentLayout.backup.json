@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\views\\profile\\manageproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\views\\profile\\manageproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\views\\profile\\removedb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\views\\profile\\removedb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\views\\profile\\editdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\views\\profile\\editdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|c:\\users\\wmdna\\onedrive\\documentos\\c#\\waterlifemvc\\waterlifemvc\\models\\crudmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2314DD1E-38DF-49C0-AC66-CE25FC748890}|WaterLifeMVC\\WaterLifeMVC.csproj|solutionrelative:waterlifemvc\\models\\crudmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoveDb.cshtml",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\RemoveDb.cshtml",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Views\\Profile\\RemoveDb.cshtml",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\RemoveDb.cshtml",
+              "RelativeToolTip": "WaterLifeMVC\\Views\\Profile\\RemoveDb.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T13:38:29.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditDb.cshtml",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\EditDb.cshtml",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Views\\Profile\\EditDb.cshtml",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\EditDb.cshtml",
+              "RelativeToolTip": "WaterLifeMVC\\Views\\Profile\\EditDb.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T10:19:52.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\ManageProduct.cshtml",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Views\\Profile\\ManageProduct.cshtml",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\ManageProduct.cshtml",
+              "RelativeToolTip": "WaterLifeMVC\\Views\\Profile\\ManageProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T17:28:14.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "WaterLifeMVC\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T11:11:37.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "WaterLifeMVC\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwDcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:11:29.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrudModel.cs",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Models\\CrudModel.cs",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Models\\CrudModel.cs",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Models\\CrudModel.cs",
+              "RelativeToolTip": "WaterLifeMVC\\Models\\CrudModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:22:24.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "WaterLifeMVC\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\wmdna\\OneDrive\\Documentos\\C#\\WaterLifeMVC\\WaterLifeMVC\\Models\\ProductModel.cs",
+              "RelativeToolTip": "WaterLifeMVC\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T18:45:10.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+﻿@model ProductModel;
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Adicionar";
+}
+
+<html lang="en">
+    <head>
+        <link href="~/css/products.css" rel="stylesheet" asp-append-version="true" />
+    </head>>
+
+    <body>
+        <main>
+            <h1>Cadastro de Produtos</h1>
+
+            <form method="post" asp-controller="Profile" asp-action="ManageProduct" enctype="multipart/form-data">
+                <div class="your-image">
+                    <img src="" id="img-display">
+                    <input type="file" name="imageFile" accept="image/*" id="img-input">
+                </div>
+
+                <div class="new-product-info">
+                    <label for="name-field">Nome:</label>
+                    <input type="text" id="name-field" asp-for="name">
+                    <label for="description-field">Descrição:</label>
+                    <textarea type="text" class="description-field" asp-for="description"></textarea>
+                    <label for="price-field">Preço:</label>
+                    <input type="text" id="price-field" asp-for="price">
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>
+
+            <a asp-controller="Profile" asp-action="Index" class="return-button">
+                <button>Voltar</button>
+            </a>
+
+            <span asp-validation-for="name"></span>
+            <span asp-validation-for="description"></span>
+            <span asp-validation-for="price"></span>
+        </main>
+
+        <script src="/js/products.js"></script>
+    </body>
+</html>
