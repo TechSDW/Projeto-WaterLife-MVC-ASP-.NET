@@ -1,0 +1,126 @@
+﻿main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shopcart-item {
+    display: flex;
+    width: 80%;
+    height: 20em;
+    justify-content: center;
+    background-color: #a9eaeb;
+    align-items: center;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+}
+
+.shopcart-item > img {
+    width: 40%;
+    margin-right: 3em;
+    border: 2px solid rgb(9, 7, 114);
+    border-radius: 1em;
+}
+
+.shopcart-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Nunito";
+    color: rgb(12, 33, 148);
+    height: 90%;
+}
+
+.shopcart-item-info > h1 {
+    margin-top: .5em;
+    color: rgb(9, 27, 131);
+}
+
+.shopcart-item-quantity {
+    display: flex;
+}
+
+.shopcart-item-quantity > input {
+    width: 3em;
+    initial-value: 1;
+    margin-left: 1em;
+}
+
+.item-price {
+    display: flex;
+}
+
+.remove-item > button {
+    width: 15em;
+    height: 3em;
+    background-color: rgb(30, 123, 230);
+    font-family: "MlkyNice";
+    border-radius: 10px;
+    margin-top: 10%;
+    border: 1px solid rgb(9, 7, 114);
+    color: white;
+}
+
+.remove-item > button:hover {
+    cursor: pointer;
+    background-color: rgb(20, 86, 161);
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(24, 78, 194);
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.items-price {
+    font-family: "Nunito";
+    margin-bottom: 3em;
+}
+
+.items-price > h1 {
+    margin-bottom: 1em;
+    font-family: "MlkyNice";
+}
+
+.items-price > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-cost {
+    border-top: 1px solid white;
+    padding-top: 1em;
+    font-family: "Nunito";
+}
+
+.total-cost > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-title {
+    font-family: "MlkyNice";
+}
+
+.total-cost > button {
+    width: 30em;
+    height: 3em;
+    background-color: rgb(30, 123, 230);
+    font-family: "MlkyNice";
+    border-radius: 10px;
+    margin-top: 10%;
+    border: 1px solid rgb(9, 7, 114);
+    color: white;
+}

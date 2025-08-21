@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ProductModel>
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/profile.css" asp-append-version="true">
+    </head>
+
+    <body>
+        <header>
+            <h1>Seja bem-vindo admin!</h1>
+        </header>
+
+        <h1>Produtos cadastrados</h1>
+
+        <main>
+            <section>
+                @if(Model != null)
+                {
+                    @foreach (var product in Model)
+                    {
+                        string imageBase64 = Convert.ToBase64String(product.image);
+                        string imageSrc = $"data:image/png;base64,{imageBase64}";
+
+                        <div class="prod-item">
+                            <img src="@imageSrc" alt="@product.name">
+
+                            <div class="prod-item-info">
+                                <div class="prod-item-info-text">
+                                    <p>Nome: @product.name</p>
+                                    <p>Preço: R$@product.price</p>
+                                </div>
+
+                                <div class="prod-item-info-button">
+                                    <a asp-controller="Profile" asp-action="EditDb" asp-route-id="@product.id"><button>Editar</button></a>
+                                    <a asp-controller="Profile" asp-action="RemoveDb" asp-route-id="@product.id"><button>Excluir</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </section>
+
+            <a asp-controller="Profile" asp-action="ManageProduct" class="new-product">
+                <button>Novo Produto</button>
+            </a>
+        </main>
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>

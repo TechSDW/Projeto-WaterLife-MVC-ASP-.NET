@@ -1,0 +1,88 @@
+﻿div > h1 {
+    margin-left: 3em;
+    margin-bottom: 1em;
+    font-family: "MlkyNice";
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.prod-item {
+    display: flex;
+    width: 40%;
+    height: 20em;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: space-between;
+    font-family: "Nunito";
+    background-color: #a9eaeb;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+}
+
+.prod-item > img {
+    width: 50%;
+    height: 80%;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 2px solid rgb(9, 7, 114);
+    border-radius: 1em;
+}
+
+.prod-item-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 1em;
+    height: 80%;
+    width: 40%;
+}
+
+.prod-item-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    margin-top: .5em;
+    color: rgb(12, 33, 148);
+}
+
+.prod-item-info-button {
+    display: flex;
+    flex-direction: column;
+    height: 28%;
+    justify-content: space-between;
+}
+
+.prod-item-info-button button {
+    width: 100%;
+    height: 2em;
+    background-color: rgb(30, 123, 230);
+    border: 1px solid rgb(9, 7, 114);
+    font-family: "MlkyNice";
+    border-radius: 10px;
+    color: white;
+}
+
+.new-product {
+    display: flex;
+    justify-content: end;
+}
+
+.new-product button {
+    width: 20em;
+    height: 3em;
+    background-color: rgb(30, 123, 230);
+    font-family: "MlkyNice";
+    border-radius: 10px;
+    border: 1px solid rgb(9, 7, 114);
+    color: white;
+    margin-right: 3em;
+    margin-bottom: 1em;
+}

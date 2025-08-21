@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: "BrightAura";
+    src: url(../fonts/bright_aura/Bright\ Aura.ttf), url(../fonts/bright_aura/Bright\ Aura.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MlkyNice";
+    src: url(../fonts/milky_nice/MilkyNice-Clean.ttf), url(../fonts/milky_nice/MilkyNice-Clean.otf);
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: rgb(30, 170, 230);
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 35em;
+    margin-bottom: 3em;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(30, 94, 212, 0.7);
+    height: 5em;
+    align-items: center;
+}
+
+nav > img {
+    width: 4.3em;
+    height: 83%;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.btn-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+}
+
+.btn-nav img {
+    width: 60%;
+}
+
+header > h1 {
+    font-family: "BrightAura";
+    font-size: 60px;
+    text-align: center;
+    width: 10em;
+    color: #c7fdff;
+    margin-top: 1em;
+}
